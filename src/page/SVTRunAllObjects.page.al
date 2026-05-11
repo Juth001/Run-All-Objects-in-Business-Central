@@ -11,7 +11,7 @@ page 85150 "SVT Run All Objects"
     Editable = false;
     ModifyAllowed = false;
     InsertAllowed = false;
-    DeleteAllowed = false;
+    DeleteAllowed = false;   
     SourceTableView = where("Object Type" = filter(Table | Page | Report | Codeunit | XMLport));
 
     layout
